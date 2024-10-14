@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+@keyframes fadeLeft{
+  0%{transform: translateX(30px); opacity: 0;}
+  100%{transform: translate(0); opacity: 1;}
+}
+
+
+@keyframes fadeRight{
+  0%{transform: translateX(-30px); opacity: 0;}
+  100%{transform: translateX(0); opacity: 1;}
+}
+
+@keyframes fadeUp{
+  0%{transform: translateY(40px); opacity: 0;}
+  100%{transform: translateY(0);}
+}
+
